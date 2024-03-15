@@ -19,7 +19,11 @@ app.use(express.json());
 
 const config = {
   authRequired: false,
-  auth0Logout: true
+  auth0Logout: true,
+  secret: 'qwerty1234',
+  baseURL: 'https://long-blue-colt-tam.cyclic.app',
+  clientID: 'zznvRBqzszTl9u2Qvv7tct2Zk2iFvzRR',
+  issuerBaseURL: 'https://dev-cqpsz4eszm4ormmp.eu.auth0.com'
 };
 
 const port = process.env.PORT || 3000;
